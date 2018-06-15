@@ -32,7 +32,8 @@ complete <- function(directory, id = 1:332) {
 
         # Create data frame from list's IDs and a vector of observations
 
-        nobs_Df <- data.frame(names(unlist(id_Nobs)), as.vector(unlist(id_Nobs)))
+        nobs_Df <- data.frame(names(unlist(id_Nobs)),
+                              as.vector(unlist(id_Nobs)))
 
         # Rename dataframe with specified column names
 

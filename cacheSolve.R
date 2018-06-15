@@ -3,7 +3,7 @@ cacheSolve <- function(x, ...) {
         # Function intends to take a argument 'x', output from function
         # 'makeCacheMatrix( )' and solve the inverse of that matrix.
 
-        # 		cachedData <- makecacheMatrix(testMatrix)
+        # cachedData <- makecacheMatrix(testMatrix)
         # cacheSolve(cachedData)
 
         # Expected inverse of 'x' output from cacheSolve:
